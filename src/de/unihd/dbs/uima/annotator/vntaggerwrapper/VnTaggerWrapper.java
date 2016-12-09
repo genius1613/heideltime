@@ -19,9 +19,13 @@ import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.jcas.JCas;
+import vn.hus.nlp.sd.SentenceDetector;
+import vn.hus.nlp.sd.SentenceDetectorFactory;
 import vn.hus.nlp.tokenizer.VietTokenizer;
 
 import java.io.File;
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -59,36 +63,36 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
      * initialization method where we fill configuration values and check some prerequisites
      */
     public void initialize(UimaContext aContext) {
-//        // get configuration from the descriptor
-//        annotate_tokens = (Boolean) aContext.getConfigParameterValue(PARAM_ANNOTATE_TOKENS);
-//        annotate_sentences = (Boolean) aContext.getConfigParameterValue(PARAM_ANNOTATE_SENTENCES);
-//        annotate_partofspeech = (Boolean) aContext.getConfigParameterValue(PARAM_ANNOTATE_PARTOFSPEECH);
-//        sentModelPath = (String) aContext.getConfigParameterValue(PARAM_SENTSEGMODEL_PATH);
-//        wordModelPath = (String) aContext.getConfigParameterValue(PARAM_WORDSEGMODEL_PATH);
-//        posModelPath = (String) aContext.getConfigParameterValue(PARAM_POSMODEL_PATH);
-//
-//        if (sentModelPath != null)
-//            if (!vnSenSegmenter.init(sentModelPath)) {
-//                Logger.printError(component, "Error initializing the sentence segmenter model: " + sentModelPath);
-//                System.exit(-1);
-//            }
-//
-//        if (wordModelPath != null)
-//            try {
-//                vnSegmenter.init(wordModelPath);
-//            } catch (Exception e) {
-//                Logger.printError(component, "Error initializing the word segmenter model: " + wordModelPath);
-//                System.exit(-1);
-//            }
-//
-//        if (posModelPath != null)
-//            try {
-//                dataTagger.addContextGenerator(new POSContextGenerator(posModelPath + File.separator + "featuretemplate.xml"));
-//                classifier = new Classification(posModelPath);
-//            } catch (Exception e) {
-//                Logger.printError(component, "Error initializing the POS tagging model: " + posModelPath);
-//                System.exit(-1);
-//            }
+        // get configuration from the descriptor
+        annotate_tokens = (Boolean) aContext.getConfigParameterValue(PARAM_ANNOTATE_TOKENS);
+        annotate_sentences = (Boolean) aContext.getConfigParameterValue(PARAM_ANNOTATE_SENTENCES);
+        annotate_partofspeech = (Boolean) aContext.getConfigParameterValue(PARAM_ANNOTATE_PARTOFSPEECH);
+        sentModelPath = (String) aContext.getConfigParameterValue(PARAM_SENTSEGMODEL_PATH);
+        wordModelPath = (String) aContext.getConfigParameterValue(PARAM_WORDSEGMODEL_PATH);
+        posModelPath = (String) aContext.getConfigParameterValue(PARAM_POSMODEL_PATH);
+
+        if (sentModelPath != null)
+            if (!vnSenSegmenter.init(sentModelPath)) {
+                Logger.printError(component, "Error initializing the sentence segmenter model: " + sentModelPath);
+                System.exit(-1);
+            }
+
+        if (wordModelPath != null)
+            try {
+                vnSegmenter.init(wordModelPath);
+            } catch (Exception e) {
+                Logger.printError(component, "Error initializing the word segmenter model: " + wordModelPath);
+                System.exit(-1);
+            }
+
+        if (posModelPath != null)
+            try {
+                dataTagger.addContextGenerator(new POSContextGenerator(posModelPath + File.separator + "featuretemplate.xml"));
+                classifier = new Classification(posModelPath);
+            } catch (Exception e) {
+                Logger.printError(component, "Error initializing the POS tagging model: " + posModelPath);
+                System.exit(-1);
+            }
     }
 
     /**
@@ -97,26 +101,28 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
     public void process(JCas jcas) throws AnalysisEngineProcessException {
         CompositeUnicode2Unicode convertor = new CompositeUnicode2Unicode();
         String origText = jcas.getDocumentText();
+        VietTokenizer vietTokenizer = new VietTokenizer("tokenizer.properties");
 
         final String convertedText = convertor.convert(origText);
+        vietTokenizer.turnOnSentenceDetection();
         final String senSegmentedText = vnSenSegmenter.senSegment(convertedText).trim();
+//        final String senSegmentedText = vietTokenizer.segment(convertedText).trim();
 //
-        final String tokenizedText = PennTokenizer.tokenize(senSegmentedText).trim();
+//        final String tokenizedText = PennTokenizer.tokenize(senSegmentedText).trim();
 
 //		final String segmentedText = vnSegmenter.segmenting(tokenizedText);
         //use vn tagger
-        VietTokenizer vietTokenizer = new VietTokenizer("tokenizer.properties");
-        vietTokenizer.turnOnSentenceDetection();
-        final String segmentedText = vietTokenizer.segment(tokenizedText);
+        final String segmentedText = vietTokenizer.segment(origText);
 
 
-        final String postProcessedString = (new JVnTextPro()).postProcessing(segmentedText).trim();
+//        final String postProcessedString = (new JVnTextPro()).postProcessing(segmentedText).trim();
+        final String postProcessedString = segmentedText;
 
-        List<Sentence> posSentences = jvnTagging(postProcessedString);
-        LinkedList<TWord> posWords = new LinkedList<TWord>();
-        for (jvntextpro.data.Sentence sent : posSentences)
-            for (Integer i = 0; i < sent.size(); ++i)
-                posWords.add(sent.getTWordAt(i));
+//        List<Sentence> posSentences = jvnTagging(postProcessedString);
+//        LinkedList<TWord> posWords = new LinkedList<TWord>();
+//        for (jvntextpro.data.Sentence sent : posSentences)
+//            for (Integer i = 0; i < sent.size(); ++i)
+//                posWords.add(sent.getTWordAt(i));
 
 
 
@@ -125,7 +131,17 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
 		 */
         if (annotate_sentences) {
             Integer offset = 0;
-            String[] sentences = senSegmentedText.split("\n");
+//            String[] sentences = senSegmentedText.split("\n");
+            String[] sentences = null;
+
+//            SentenceDetector sentenceDetector = SentenceDetectorFactory.create("vietnamese");
+            try {
+                SentenceDetector sentenceDetector = new SentenceDetector("/home/tienbm90/IdeaProjects/v2/heideltime/models/sentDetection/VietnameseSD.bin.gz");
+                sentences = sentenceDetector.detectSentences(new StringReader(origText));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
             for (String sentence : sentences) {
                 de.unihd.dbs.uima.types.heideltime.Sentence s = new de.unihd.dbs.uima.types.heideltime.Sentence(jcas);
                 sentence = sentence.trim();
@@ -152,7 +168,7 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
         }
 
 		/*
-		 * annotate tokens
+         * annotate tokens
 		 */
         if (annotate_tokens) {
             Integer offset = 0;
@@ -166,19 +182,15 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
                 Token t = new Token(jcas);
 
                 if (tokenOffset >= 0) {
-					/*
-					 * first, try to find the string in the form the tokenizer returned it
+                    /*
+                     * first, try to find the string in the form the tokenizer returned it
 					 */
                     t.setBegin(tokenOffset);
                     offset = tokenOffset + token.length();
                     t.setEnd(offset);
-
-                    sanitizeToken(t, jcas);
-
-                    if (annotate_tokens) t.setPos(thisPosTag);
                     t.addToIndexes();
                 } else {
-					/*
+                    /*
 					 * straight up token not found.
 					 * assume that it is a compound word (e.g. some_thing)
 					 * and try to find it in the original text again; first using
@@ -198,19 +210,11 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
                             t.setBegin(spaceOffset);
                             offset = spaceOffset + underscoreToSpaceToken.length();
                             t.setEnd(offset);
-
-                            sanitizeToken(t, jcas);
-
-                            if (annotate_tokens) t.setPos(thisPosTag);
                             t.addToIndexes();
                         } else {
                             t.setBegin(removedOffset);
                             offset = removedOffset + underscoreRemovedToken.length();
                             t.setEnd(offset);
-
-                            sanitizeToken(t, jcas);
-
-                            t.addToIndexes();
                         }
                     }
 					/*
@@ -221,9 +225,6 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
                         offset = removedOffset + underscoreRemovedToken.length();
                         t.setEnd(offset);
 
-                        sanitizeToken(t, jcas);
-
-                        if (annotate_tokens) t.setPos(thisPosTag);
                         t.addToIndexes();
                     }
 					/*
@@ -234,9 +235,6 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
                         offset = spaceOffset + underscoreToSpaceToken.length();
                         t.setEnd(offset);
 
-                        sanitizeToken(t, jcas);
-
-                        if (annotate_tokens) t.setPos(thisPosTag);
                         t.addToIndexes();
                     }
 					/*
@@ -250,48 +248,6 @@ public class VnTaggerWrapper extends JCasAnnotator_ImplBase {
         }
     }
 
-    private Boolean sanitizeToken(Token t, JCas jcas) {
-        Boolean workDone = false;
-
-        // check the beginning of the token for punctuation and split off into a new token
-        if (t.getCoveredText().matches("^\\p{Punct}.*") && t.getCoveredText().length() > 1) {
-            Character thisChar = t.getCoveredText().charAt(0);
-            t.setBegin(t.getBegin() + 1); // set corrected token boundary for the word
-            Token puncToken = new Token(jcas); // create a new token for the punctuation character
-            puncToken.setBegin(t.getBegin() - 1);
-            puncToken.setEnd(t.getBegin());
-            // check if we want to annotate pos or the token itself
-            if (annotate_partofspeech)
-                puncToken.setPos("" + thisChar);
-            if (annotate_tokens)
-                puncToken.addToIndexes();
-
-            workDone = true;
-        }
-
-        // check the end of the token for punctuation and split off into a new token
-        if (t.getCoveredText().matches(".*\\p{Punct}$") && t.getCoveredText().length() > 1) {
-            Character thisChar = t.getCoveredText().charAt(t.getEnd() - t.getBegin() - 1);
-            t.setEnd(t.getEnd() - 1); // set corrected token boundary for the word
-            Token puncToken = new Token(jcas); // create a new token for the punctuation character
-            puncToken.setBegin(t.getEnd());
-            puncToken.setEnd(t.getEnd() + 1);
-            // check if we want to annotate pos or the token itself
-            if (annotate_partofspeech)
-                puncToken.setPos("" + thisChar);
-            if (annotate_tokens)
-                puncToken.addToIndexes();
-
-            workDone = true;
-        }
-
-        // get into a recursion to sanitize tokens as long as there are stray ones
-        if (workDone) {
-            workDone = sanitizeToken(t, jcas);
-        }
-
-        return workDone;
-    }
 
     /**
      * Taken from the JVnTextPro package and adapted to not output a string

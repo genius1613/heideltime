@@ -1,0 +1,14 @@
+NDĐT – Ngày 7-12, Tập đoàn công nghệ Bkav ra mắt bộ thiết bị an ninh mạng chuyên dụng, bảo vệ hệ thống trước các nguy cơ tấn công mạng, đặc biệt là tấn công có chủ đích APT.
+Tấn công mạng ngày càng gia tăng, đặc biệt các cuộc tấn công có chủ đích APT đang là mối đe dọa thường trực cho các cơ quan, tổ chức. Firewall và bộ thiết bị chống tấn công có chủ đích APT là giải pháp toàn diện giúp cơ quan, tổ chức, doanh nghiệp phát hiện sớm, cảnh báo và ngăn chặn nguy cơ bị tấn công.
+
+Sản phẩm bao gồm: thiết bị Firewall thế hệ mới BIF (Bkav IPS Firewall Next Generation), thiết bị phát hiện và cảnh báo tấn công BNI (Bkav Network Inspector) và thiết bị kiểm soát chính sách an ninh thông tin BTN (Bkav Total NAC).
+
+Cụ thể, BNI là thiết bị phòng vệ vòng ngoài, phát hiện và cảnh báo tấn công. Bên cạnh việc giám sát tính sẵn sàng của các dịch vụ quan trọng trong hệ thống, BNI còn có khả năng phát hiện sớm kiểu tấn công nằm vùng, đặc trưng của các cuộc tấn công APT. Từ đó cảnh báo để quản trị hệ thống cách ly, xử lý các máy tính đã bị xâm nhập, ngăn chặn hacker có thể thọc sâu vào hệ thống.
+
+Tấn công APT là hình thức tấn công có chủ đích, nhằm vào một cơ quan, tổ chức để đánh cắp thông tin quan trọng. Trong các cuộc tấn công này, hacker thường sử dụng virus đặc chủng có khả năng vượt qua tường lửa và các phần mềm diệt virus để nằm vùng trong hệ thống.
+
+Ông Vũ Ngọc Sơn, Phó chủ tịch phụ trách mảng Chống mã độc (Anti Malware) của Bkav cho biết: “Nhiều năm hoạt động trên cả hai lĩnh vực sản xuất phần mềm diệt virus và an ninh mạng, chúng tôi có đủ công nghệ và kinh nghiệm để chống lại những kỹ thuật tinh vi của các cuộc tấn công APT”.
+
+Bên cạnh bộ thiết bị chống tấn công có chủ đích APT, Tập đoàn công nghệ Bkav cũng ra mắt thiết bị Firewall BIF. Đây là mộttrong những Firewall thế hệ mới hiếm hoi trên thế giới hiện nay được trang bị đầy đủ tính năng chống tấn công từ chối dịch vụ DDoS và chống tấn công xâm nhập web.
+
+Phó chủ tịch phụ trách an ninh mạng của Bkav, ông Ngô Tuấn Anh cho hay: “Bên cạnh mục tiêu góp phần đảm bảo an ninh cho các hệ thống mạng trong nước, chúng tôi tin tưởng Firewall và bộ sản phẩm chống tấn công có chủ đích APT sẽ đưa thương hiệu về an ninh mạng của Việt Nam ra thế giới, tạo được uy tín trên toàn cầu như cuộc thi an ninh mạng WhiteHat Grand Prix”.

@@ -2,187 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4195a1be-1868-46e7-82a4-63b0c05b0e6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/sentDetection/VietnameseSD.bin.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__args4j_args4j_2_32.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dbtsai_lbfgs_lbfgs_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_efficient_java_matrix_library_ejml_0_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_io7m_xom_xom_1_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_jollyday_jollyday_0_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_nlp_stanford_corenlp_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_opennlp_opennlp_maxent_2_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_uima_uimaj_core_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_contenttype_3_4_200_v20140207_1251.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_jobs_3_6_0_v20140424_0053.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_core_runtime_3_10_0_v20140318_2214.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_app_1_3_200_v20130910_1609.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_common_3_6_200_v20130402_1505.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_preferences_3_5_200_v20140224_1527.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_equinox_registry_3_5_400_v20140428_1507.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_osgi_3_10_0_v20140606_1445.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_core_4_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__vn_hus_nlp_nlp_fsm_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__vn_hus_nlp_nlp_sd_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__vn_hus_nlp_nlp_utils_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_03.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heideltime.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/automata/dfaLexicon.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/automata/externalLexicon.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/bigram/bigram.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/bigram/unigram.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/lexers/lexers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/normalization/rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/tokenization/prefix/namedEntityPrefix.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/ComputerDict.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/0.tok.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/0.tok.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/1.tok.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/1.tok.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/2.tok.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/2.tok.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/3.tok.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/3.tok.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/VnTaggerWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/CorpusMarshaller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/CorpusUnmarshaller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/IConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/Body.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/Corpus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/P.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/S.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/W.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/jaxb/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/corpus/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/AdjacencyListGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/AdjacencyListWeightedGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/AdjacencyMatrixGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/Edge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/EdgeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/IGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/IWeightedGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/WeightedGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/io/GraphIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/io/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/search/FloydWarshall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/search/FloydWarshallTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/search/GraphBFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/search/GraphDFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/search/ShortestPathFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/search/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/test/GraphClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/test/ShortestPathFinderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/test/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/AdjacencyListEdgeIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/AdjacencyListVertexIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/AdjacencyMatrixVertexIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/EdgeIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/GraphConnectivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/GraphDegree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/GraphUtilities.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/IndexException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/VertexIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/graph/util/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/IConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/Ambiguity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/Bigram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/Couple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/CoupleComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/Estimator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/Resolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/bigram/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/test/TestConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/test/UnigramTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/test/VocabularyBuilderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/unigram/Unigram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/unigram/VocabularyBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lang/model/unigram/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/IConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/LexiconMarshaller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/LexiconUnmarshaller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/jaxb/Body.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/jaxb/Corpus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/jaxb/ObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/jaxb/W.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/jaxb/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/lexicon/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/IConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/ITokenizerListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/ResourceHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/ResultMerger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/ResultSplitter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/Tokenizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/TokenizerOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/TokenizerProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/VietTokenizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/FormatterFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/IOutputFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/IOutputListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/Outputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/PlainFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/TwoColumnsFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/XMLFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/io/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/nio/IExporter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/nio/XMLCorpusExporter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/plugin/TokenizerPlugin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/AbstractLexiconRecognizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/AbstractResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/DFALexiconRecognizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/ExternalLexiconRecognizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/IConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/Segmenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/StringNormalizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/UnigramResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/segmenter/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tokens/LexerRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tokens/TaggedWord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tokens/WordToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tokens/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/Alphabet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/CorpusRecover.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/DFALexiconBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/Echo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/LexerRuleConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/LexiconCounter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/StringSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/SyllablesFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/TaggedToTokenizedConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/TextFileSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/TokenizedToRawConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/UTF8FileComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/WordExtractor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/WordListConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/WordListMerger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/WordsFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/tools/package.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/web/IConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/web/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/web/TokenizerClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/web/TokenizerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tokenizer.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/sentDetection/VietnameseSD.bin.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/automata/dfaLexicon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/automata/externalLexicon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/bigram/bigram.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/bigram/unigram.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/lexers/lexers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/normalization/rules.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/tokenization/prefix/namedEntityPrefix.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/config.props" afterPath="$PROJECT_DIR$/conf/config.props" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/jvntextprowrapper/JVnTextProWrapper.java" afterPath="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/jvntextprowrapper/JVnTextProWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jmaxent/FeatureGen.java" afterPath="$PROJECT_DIR$/src/jmaxent/FeatureGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heideltime.iml" afterPath="$PROJECT_DIR$/heideltime.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java" afterPath="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/VnTaggerWrapper.java" afterPath="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/VnTaggerWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java" afterPath="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java" />
     </list>
     <ignored path="heideltime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -206,35 +39,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="234">
-      <file leaf-file-name="JVnTextProWrapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/jvntextprowrapper/JVnTextProWrapper.java">
+      <file leaf-file-name="HeidelTimeStandalone.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.042857144">
+              <caret line="365" column="65" selection-start-line="365" selection-start-column="65" selection-end-line="365" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1480180932608" expanded="true" signature="5058:5897" placeholder="..." />
-                <marker date="1480180932608" expanded="true" signature="5931:9024" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1696" column="15" selection-start-line="1696" selection-start-column="15" selection-end-line="1696" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VnTaggerWrapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VnTaggerWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28125">
-              <caret line="173" column="37" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="139" column="86" selection-start-line="139" selection-start-column="86" selection-end-line="139" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,13 +83,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java" />
         <option value="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/JVnTextProWrapper.java" />
         <option value="$PROJECT_DIR$/src/jmaxent/FeatureGen.java" />
-        <option value="$PROJECT_DIR$/conf/config.props" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/VnTaggerWrapper.java" />
         <option value="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/jvntextprowrapper/JVnTextProWrapper.java" />
+        <option value="$PROJECT_DIR$/conf/config.props" />
+        <option value="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java" />
+        <option value="$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/VnTaggerWrapper.java" />
         <option value="$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java" />
       </list>
     </option>
@@ -363,7 +184,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -406,15 +229,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uima" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,85 +243,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vntaggerwrapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heideltime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heideltime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heideltime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="heideltime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbs" />
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="/data01/vn.hus.nlp.tagger-4.2.0-src" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.unihd.dbs.heideltime.standalone.components.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
@@ -1041,40 +797,44 @@
       <workItem from="1480130747266" duration="8519000" />
       <workItem from="1480173340101" duration="5179000" />
       <workItem from="1480268981694" duration="941000" />
-      <workItem from="1480523858819" duration="3046000" />
+      <workItem from="1480523858819" duration="4302000" />
+      <workItem from="1480694890615" duration="5125000" />
+      <workItem from="1480844270018" duration="11236000" />
+      <workItem from="1480959257017" duration="1221000" />
+      <workItem from="1481306600623" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34678000" />
+    <option name="totallyTimeSpent" value="53562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880597" sideWeight="0.50269026" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289777" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23520368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14911607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3880597" sideWeight="0.49730977" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1093,7 +853,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java</url>
-          <line>115</line>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -1115,8 +875,20 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/jvntextprowrapper/JVnTextProWrapper.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1125,10 +897,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jvnpostag/POSContextGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/JVnTextProWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1143,26 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/JVnTextProWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,9 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,9 +958,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480180932608" expanded="true" signature="5058:5897" placeholder="..." />
-            <marker date="1480180932608" expanded="true" signature="5931:9024" placeholder="..." />
+            <marker date="1480528371219" expanded="true" signature="5058:5897" placeholder="..." />
+            <marker date="1480528371219" expanded="true" signature="5931:9024" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1258,17 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-          <folding>
-            <element signature="e#1934#1935#0" expanded="false" />
-            <element signature="e#1967#1968#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/config.props">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38709676">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="116" />
         </state>
       </provider>
     </entry>
@@ -1297,14 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3328125">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="421" column="0" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1343,13 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/tokenization/bigram/bigram.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tokenizer.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1361,56 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="248" column="47" selection-start-line="248" selection-start-column="47" selection-end-line="248" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/JVnTextProWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvnpostag/POSContextGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28125">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/VietTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#4746#4747#0" expanded="false" />
-            <element signature="e#4798#4799#0" expanded="false" />
-            <element signature="e#4889#4890#0" expanded="false" />
-            <element signature="e#4942#4943#0" expanded="false" />
-            <element signature="e#8007#8008#0" expanded="false" />
-            <element signature="e#8030#8031#0" expanded="false" />
-            <element signature="e#8167#8168#0" expanded="false" />
-            <element signature="e#8197#8198#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvnsensegmenter/JVnSenSegmenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/treetagger/TreeTaggerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33184856">
-          <caret line="250" column="8" selection-start-line="250" selection-start-column="8" selection-end-line="250" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,9 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1498,36 +1171,170 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1696" column="15" selection-start-line="1696" selection-start-column="15" selection-end-line="1696" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#122414#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4846#4847#0" expanded="false" />
+            <element signature="e#4886#4887#0" expanded="false" />
+            <element signature="e#5859#5860#0" expanded="false" />
+            <element signature="e#5922#5923#0" expanded="false" />
+            <element signature="e#12931#12932#0" expanded="false" />
+            <element signature="e#12983#12984#0" expanded="false" />
+            <element signature="e#18614#18615#0" expanded="false" />
+            <element signature="e#18667#18668#0" expanded="false" />
+            <element signature="e#20560#20561#0" expanded="false" />
+            <element signature="e#20604#20605#0" expanded="false" />
+            <element signature="e#21794#21795#0" expanded="false" />
+            <element signature="e#21874#21875#0" expanded="false" />
+            <element signature="e#22493#22494#0" expanded="false" />
+            <element signature="e#22535#22536#0" expanded="false" />
+            <element signature="e#22850#22851#0" expanded="false" />
+            <element signature="e#22885#22886#0" expanded="false" />
+            <element signature="e#23141#23142#0" expanded="false" />
+            <element signature="e#23181#23182#0" expanded="false" />
+            <element signature="e#29826#29827#0" expanded="false" />
+            <element signature="e#29897#29898#0" expanded="false" />
+            <element signature="e#36782#36783#0" expanded="false" />
+            <element signature="e#36848#36849#0" expanded="false" />
+            <element signature="e#47408#47409#0" expanded="false" />
+            <element signature="e#47472#47473#0" expanded="false" />
+            <element signature="e#55768#55769#0" expanded="false" />
+            <element signature="e#55812#55813#0" expanded="false" />
+            <element signature="e#56425#56426#0" expanded="false" />
+            <element signature="e#56502#56503#0" expanded="false" />
+            <element signature="e#58524#58525#0" expanded="false" />
+            <element signature="e#58561#58562#0" expanded="false" />
+            <element signature="e#62972#62973#0" expanded="false" />
+            <element signature="e#63028#63029#0" expanded="false" />
+            <element signature="e#66593#66594#0" expanded="false" />
+            <element signature="e#66631#66632#0" expanded="false" />
+            <element signature="e#70089#70090#0" expanded="false" />
+            <element signature="e#70142#70143#0" expanded="false" />
+            <element signature="e#76845#76846#0" expanded="false" />
+            <element signature="e#76904#76905#0" expanded="false" />
+            <element signature="e#81336#81337#0" expanded="false" />
+            <element signature="e#81387#81388#0" expanded="false" />
+            <element signature="e#81771#81772#0" expanded="false" />
+            <element signature="e#81820#81821#0" expanded="false" />
+            <element signature="e#93265#93266#0" expanded="false" />
+            <element signature="e#93303#93304#0" expanded="false" />
+            <element signature="e#100216#100217#0" expanded="false" />
+            <element signature="e#100271#100272#0" expanded="false" />
+            <element signature="e#106802#106803#0" expanded="false" />
+            <element signature="e#106857#106858#0" expanded="false" />
+            <element signature="e#108993#108994#0" expanded="false" />
+            <element signature="e#109020#109021#0" expanded="false" />
+            <element signature="e#113752#113753#0" expanded="false" />
+            <element signature="e#113814#113815#0" expanded="false" />
+            <element signature="e#114321#114322#0" expanded="false" />
+            <element signature="e#114360#114361#0" expanded="false" />
+            <element signature="e#115506#115507#0" expanded="false" />
+            <element signature="e#115560#115561#0" expanded="false" />
+            <element signature="e#116474#116475#0" expanded="false" />
+            <element signature="e#116513#116514#0" expanded="false" />
+            <element signature="e#116906#116907#0" expanded="false" />
+            <element signature="e#116949#116950#0" expanded="false" />
+            <element signature="e#117784#117785#0" expanded="false" />
+            <element signature="e#117826#117827#0" expanded="false" />
+            <element signature="e#118261#118262#0" expanded="false" />
+            <element signature="e#118300#118301#0" expanded="false" />
+            <element signature="e#118742#118743#0" expanded="false" />
+            <element signature="e#118782#118783#0" expanded="false" />
+            <element signature="e#119232#119233#0" expanded="false" />
+            <element signature="e#119273#119274#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvnpostag/POSContextGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19375">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/treetagger/TreeTaggerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.01875">
+          <caret line="257" column="7" selection-start-line="257" selection-start-column="7" selection-end-line="257" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/POSTagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/JVnTextProWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9736842">
+          <caret line="41" column="40" selection-start-line="25" selection-start-column="4" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/config.props">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tokenization/bigram/bigram.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25641027">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/jvntextprowrapper/JVnTextProWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        <state vertical-scroll-proportion="2.951613">
+          <caret line="190" column="61" selection-start-line="190" selection-start-column="40" selection-end-line="190" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480180932608" expanded="true" signature="5058:5897" placeholder="..." />
-            <marker date="1480180932608" expanded="true" signature="5931:9024" placeholder="..." />
+            <marker date="1480528371219" expanded="true" signature="5058:5897" placeholder="..." />
+            <marker date="1480528371219" expanded="true" signature="5931:9024" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/components/impl/VnTaggerWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77956986">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvnsensegmenter/JVnSenSegmenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3578947">
+          <caret line="150" column="60" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vn/hus/nlp/tokenizer/VietTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.642105">
+          <caret line="177" column="16" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <caret line="139" column="86" selection-start-line="139" selection-start-column="86" selection-end-line="139" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/uima/annotator/vntaggerwrapper/VnTaggerWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/de/unihd/dbs/heideltime/standalone/HeidelTimeStandalone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28125">
-          <caret line="173" column="37" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.042857144">
+          <caret line="365" column="65" selection-start-line="365" selection-start-column="65" selection-end-line="365" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

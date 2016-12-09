@@ -31,9 +31,9 @@ chineseTokenizerPath = SET ME IN CONFIG.PROPS! (e.g., /home/jannik/treetagger/ch
 #sent_model_path = SET ME IN CONFIG.PROPS! (e.g., /home/jannik/jvntextpro/models/jvnsensegmenter)
 #word_model_path = SET ME IN CONFIG.PROPS! (e.g., /home/jannik/jvntextpro/models/jvnsegmenter)
 #pos_model_path = SET ME IN CONFIG.PROPS! (e.g., /home/jannik/jvntextpro/models/jvnpostag/maxent)
-sent_model_path = /home/tienbm90/IdeaProjects/heideltime-standalone/tagger-resources/JvnSegmenter/models/jvnsegmenter
+sent_model_path = /home/tienbm90/IdeaProjects/heideltime-standalone/tagger-resources/JvnSegmenter/models/jvnsensegmenter
 word_model_path = /home/tienbm90/IdeaProjects/heideltime-standalone/tagger-resources/JvnSegmenter/models/jvnsegmenter
-pos_model_path = /home/tienbm90/IdeaProjects/heideltime-standalone/tagger-resources/JvnSegmenter/models/jvnsegmenter
+pos_model_path = /home/tienbm90/IdeaProjects/heideltime-standalone/tagger-resources/JvnSegmenter/models/jvnpostag/maxent
 
 #####################################################
 # paths to Stanford POS Tagger model or config files:

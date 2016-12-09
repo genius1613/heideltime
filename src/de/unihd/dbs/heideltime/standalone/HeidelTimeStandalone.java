@@ -363,7 +363,8 @@ public class HeidelTimeStandalone {
 					logger.log(Level.INFO, "Be aware that you use the AllLanguagesTokenizer instead of specific preprocessing for Vietnamese. "
 							+ "Thus, tagging results might be very different (and worse).");
 				} else {
-					partOfSpeechTagger = new JVnTextProWrapper();
+//					partOfSpeechTagger = new JVnTextProWrapper();
+					partOfSpeechTagger = new de.unihd.dbs.heideltime.standalone.components.impl.VnTaggerWrapper();
 					settings.put(PartOfSpeechTagger.JVNTEXTPRO_ANNOTATE_TOKENS, true);
 					settings.put(PartOfSpeechTagger.JVNTEXTPRO_ANNOTATE_SENTENCES, true);
 					settings.put(PartOfSpeechTagger.JVNTEXTPRO_ANNOTATE_POS, true);
